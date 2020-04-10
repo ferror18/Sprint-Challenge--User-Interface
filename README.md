@@ -36,10 +36,10 @@ Edit this document to include your answers after each question. Make sure to lea
 
 2. What are the 4 areas of the box model?
 
-    -Content
-    -Padding
-    -Border
-    -Margin
+    - Content
+    - Padding
+    - Border
+    - Margin
 
 3. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
@@ -47,10 +47,10 @@ Edit this document to include your answers after each question. Make sure to lea
 
 4. Explain why git is valuable to a team of developers.
 
-    -Tracks changes in code and stores previous versions.
-    -Helps resolve conflicts between two developers code.
-    -Tracks code authors.
-    -Might provide some support for development flow.
+    - Tracks changes in code and stores previous versions.
+    - Helps resolve conflicts between two developers code.
+    - Tracks code authors.
+    - Might provide some support for development flow.
 
 5. Define mobile-first design in your own words.
 
