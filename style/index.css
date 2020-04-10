@@ -22,12 +22,12 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-} */
+}  */
 /* HTML5 display-role reset for older browsers */
 /* article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
-} */
+}*/
  body {
      margin: 0;
      padding: 0;
@@ -216,6 +216,14 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* about css */
+
+/* .content_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
 /* media queries  ____________________________________________________________________________________________________________________________________________________________________________________________
 _________________________________________________________________________________________________________________________________________________________________________________________________________*/
 @media (min-width: 500px){
@@ -239,6 +247,15 @@ ________________________________________________________________________________
     }
     .links button{
         width: 20%;
+        text-decoration: none;
+        cursor: pointer;
+        border: none;
+        color: Black;
+        background: white;
+    }
+    .links a{
+        text-decoration: none;
+        color: black;
     }
 /* top content */
 
@@ -283,6 +300,19 @@ ________________________________________________________________________________
     background-color:dodgerblue;
     display: flex;
 }
+.middle-content_h2{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    width: 80%;
+    font-size: .8rem;
+}.middle-content_h2 h2{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    width: 80%;
+    font-size: 1.5rem;
+}
 .middle-content .boxes {
     display: flex;
     flex-flow: row wrap;
@@ -295,7 +325,7 @@ ________________________________________________________________________________
 .middle-content .boxes .box {
     width:  auto;
     height: auto;
-    padding: 1.8vw;
+    padding: 2.45vw;
 }
 /* bottom section */
     .bottom-content{
@@ -314,6 +344,11 @@ ________________________________________________________________________________
         display: flex;
         flex-flow: column nowrap;
         justify-content: space-between;
+    }
+}
+@media (min-width: 767px) {
+    .middle-content .boxes .box{
+        padding: 2.9vw;
     }
 }
 @media (min-width: 800px){
@@ -337,6 +372,15 @@ ________________________________________________________________________________
     }
     .links button{
         width: 20%;
+        text-decoration: none;
+        cursor: pointer;
+        border: none;
+        color: Black;
+        background: white;
+    }
+    .links a{
+        text-decoration: none;
+        color: black;
     }
 /* top content */
 
