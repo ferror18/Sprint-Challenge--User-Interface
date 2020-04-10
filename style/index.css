@@ -218,104 +218,6 @@ footer nav a {
 }
 /* media queries  ____________________________________________________________________________________________________________________________________________________________________________________________
 _________________________________________________________________________________________________________________________________________________________________________________________________________*/
-@media (min-width: 800px){
-    /* Header */
-    header{
-        flex-direction: row;
-        margin-bottom: 3%;
-    }
-    .logo{
-        display: flex;
-        justify-content: row;
-    
-    }
-    .links{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-evenly;
-        margin: 0 auto;
-        width: 80%;
-    }
-    .links button{
-        width: 20%;
-    }
-/* top content */
-
-.top-content {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0 auto;
-    border-bottom: 1px dashed black;
-    width: 80%
-}
-.super_text_container{
-    display: flex;
-    flex-direction: row;
-}
-/* middle content */
-.middle-content{
-    align-items: center;
-}
-#box5{
-    background-color:crimson;
-    display: flex;
-}
-#box6{
-    background-color:forestgreen;
-    display: flex;
-}
-#box7{
-    background-color:darkorchid;
-    display: flex;
-}
-#box8{
-    background-color:hotpink;
-    display: flex;
-}
-#box9{
-    background-color:indigo;
-    display: flex;
-}
-#box10{
-    background-color:dodgerblue;
-    display: flex;
-}
-.middle-content .boxes {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    border-bottom: 1px dashed black;
-    align-content: space-around;
-    width: 80%;
-}
-.middle-content .boxes .box {
-    width:  auto;
-    height: auto;
-    padding: 3.5vw;
-}
-/* bottom section */
-    .bottom-content{
-        display: flex;
-        margin: 0 auto;
-        width: 80%;
-    }
-    /* footer */
-    footer{
-        display: flex;
-        margin: 0 auto;
-        width: 80%;
-    }
-    .container{
-        height: auto;
-        display: flex;
-        flex-flow: column nowrap;
-        justify-content: space-between;
-    }
-}
 @media (min-width: 500px){
     /* Header */
     header{
@@ -394,6 +296,104 @@ ________________________________________________________________________________
     width:  auto;
     height: auto;
     padding: 1.8vw;
+}
+/* bottom section */
+    .bottom-content{
+        display: flex;
+        margin: 0 auto;
+        width: 80%;
+    }
+    /* footer */
+    footer{
+        display: flex;
+        margin: 0 auto;
+        width: 80%;
+    }
+    .container{
+        height: auto;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+    }
+}
+@media (min-width: 800px){
+    /* Header */
+    header{
+        flex-direction: row;
+        margin-bottom: 3%;
+    }
+    .logo{
+        display: flex;
+        justify-content: row;
+    
+    }
+    .links{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 0 auto;
+        width: 80%;
+    }
+    .links button{
+        width: 20%;
+    }
+/* top content */
+
+.top-content {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    border-bottom: 1px dashed black;
+    width: 80%
+}
+.super_text_container{
+    display: flex;
+    flex-direction: row;
+}
+/* middle content */
+.middle-content{
+    align-items: center;
+}
+#box5{
+    background-color:crimson;
+    display: flex;
+}
+#box6{
+    background-color:forestgreen;
+    display: flex;
+}
+#box7{
+    background-color:darkorchid;
+    display: flex;
+}
+#box8{
+    background-color:hotpink;
+    display: flex;
+}
+#box9{
+    background-color:indigo;
+    display: flex;
+}
+#box10{
+    background-color:dodgerblue;
+    display: flex;
+}
+.middle-content .boxes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px dashed black;
+    align-content: space-around;
+    width: 80%;
+}
+.middle-content .boxes .box {
+    width:  auto;
+    height: auto;
+    padding: 3.5vw;
 }
 /* bottom section */
     .bottom-content{
